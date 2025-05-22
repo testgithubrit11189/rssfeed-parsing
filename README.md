@@ -45,21 +45,24 @@ Store the data in news_articles.csv
 
 Detect the language of each article
 
+---
+
 ##⚠️ Issues Encountered
-Some RSS feeds did not contain summary or content fields.
+1.Some RSS feeds did not contain summary or content fields.
 
-Language detection (langdetect) struggles with very short or ambiguous text.
+2.Language detection (langdetect) struggles with very short or ambiguous text.
 
-JupyterLite does not support required Python packages (e.g., feedparser), so the notebook must be run in Google Colab or a full Jupyter environment.
+3.JupyterLite does not support required Python packages (e.g., feedparser), so the notebook must be run in Google Colab or a full Jupyter environment.
 
-Encoding issues with non-English articles were fixed using UTF-8 output.
-Save grouped files by language: news_en.csv, news_ja.csv, etc.
+4.Encoding issues with non-English articles were fixed using UTF-8 output.
+5.Save grouped files by language: news_en.csv, news_ja.csv, etc.
 
-Create a summary table by country and save it as news_summary.csv
+6.Create a summary table by country 
+
+---
 
 ##🧠 Bonus Feature Implemented
 Language Detection: Uses langdetect to tag articles by language.
 
 Saves articles grouped by language into separate CSV files.
 
-Ready to be integrated with APIs or dashboards.
