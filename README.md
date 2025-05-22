@@ -24,30 +24,32 @@ This project extracts and processes news data from various international RSS fee
 
 ##▶️ How to Run the Script
 📁 Files:
-feedparser.ipynb – Google Colab notebook
+1.feedparser.ipynb – Google Colab notebook
 
-news_articles.csv – Full CSV file with all scraped news
+2.news_articles.csv – Full CSV file with all scraped news
 
-news_<lang>.csv – Language-wise separated files (e.g. news_en.csv, news_pt.csv, etc.)
+3.news_<lang>.csv – Language-wise separated files (e.g. news_en.csv, news_pt.csv, etc.)
 
-README.md – This file
+4.README.md – This file
 
 ## ✅ Steps:
-Open feedparser.ipynb in Jupyter Notebook or Google Colab.
+1.Open feedparser.ipynb in Jupyter Notebook or Google Colab.
 
-Run all cells in order.
+2.Run all cells in order.
 
-The script will:
+3.The script will:
 
-Scrape and parse news data from RSS feeds
+4.Scrape and parse news data from RSS feeds
 
-Store the data in news_articles.csv
+5.Store the data in news_articles.csv
 
-Detect the language of each article
+6.Detect the language of each article
 
 ---
 
 ##⚠️ Issues Encountered
+
+
 1.Some RSS feeds did not contain summary or content fields.
 
 2.Language detection (langdetect) struggles with very short or ambiguous text.
@@ -62,7 +64,8 @@ Detect the language of each article
 ---
 
 ##🧠 Bonus Feature Implemented
-Language Detection: Uses langdetect to tag articles by language.
 
-Saves articles grouped by language into separate CSV files.
+1.Language Detection: Uses langdetect to tag articles by language.
+
+2.Saves articles grouped by language into separate CSV files.
 
